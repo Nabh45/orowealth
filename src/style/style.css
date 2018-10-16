@@ -1,0 +1,109 @@
+.headerContent ul {
+    padding-left: 0px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.headerContent li {
+    display: inline;
+    padding-right: 50px;
+    padding-bottom: 15px;
+}
+
+.personalInfo {
+    background-color: rgb(0, 195, 255);
+    padding: 10px 10px 10px 0 ;
+    width: 10%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 35px 0;
+}
+
+.container {
+    margin: 0 50px;
+}
+
+fieldset {
+    border: none;
+}
+
+.check {
+    margin: 20px 0;
+}
+
+label {
+    margin: 20px 0;
+}
+
+input {
+    margin: 5px 0 0 0;
+    padding: 8px;
+    width: 75%;
+}
+
+.innerContainer {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+}  
+
+.innerContainerOuter {
+    width: 33%;
+    max-width: 33%;
+    float: left;
+}
+
+.upperDiv {
+    max-width: 33%;
+    width: 33%;
+    margin: 20px 0;
+}
+
+.button {
+    margin: 20px 0;
+    clear: left;
+    float: right;
+}
+
+.button button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.listContainer {
+    margin: 100px;
+}
+
+.listOuterDiv {
+    border: 2px solid black;
+    width: 30%;
+    max-width: 30%;
+    padding: 20px;
+    float: left;
+    margin-right: 30px;
+}
+
+.listButton button{
+    padding: 6px;
+    margin: 5px;
+    border-radius: 5px;
+    float: right
+}
+
+.imgDiv {
+    height: 25%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 25%;
+    border-radius: 75px;
+}
+
+@media (max-width: 500px) {
+    .innerContainerOuter {
+        
+            width: 100%;
+            max-width: 100%;
+    }
+}
